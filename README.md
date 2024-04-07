@@ -85,7 +85,7 @@ Specific Applications:
 ## Further Improvements
 1. Face Detection: Our face clustering code groups faces into different classes. There can be cases where the side profile and the front profile of the same person is put into different classes and we manually have to group them as the same person. We would like to improve on this so that the machine itself can group the front and side profiles of a person and put them into a single class.
 
-2. Finger Tracker: It could have had a better UI and a faster response rate. However, we chose to go with a very simple format because we felt what we're implementing using ML matters more in the hackathon than what we're doing on the front-end.
+2. Finger Tracker: It could have had a better UI and a faster response rate. However, we chose to go with a very simple format because we felt that implementing using ML matters more in the hackathon than what we are doing on the front-end.
 
 ## Demo Video
 https://www.youtube.com/watch?v=e6uIOivYKd4
