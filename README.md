@@ -19,9 +19,7 @@ To simulate a real-life scenario where we eliminate terrorist threats and free o
 - [Face Detection](https://github.com/AGiLe-IIITB/face_detection)
 
 ## Features
-```
 Our project utilizes blink detection for Morse code translation, object detection to detect buildings in a landscape, finger tracking for a virtual gun, audio-to-text conversion, and NLP to translate speech and detect keywords and terrorist threats in speech and face detection to distinguish enemies and comrades.
-```
 
 ## Tech Stack
 Programming Language: Python
@@ -37,7 +35,7 @@ Libraries used:
 ## How To Run
 1. Morse Code:
 
-We have a main Python code blink_morse1.py and two sub-codes constants.py and morse_code.py which are linked to the main code. We also have to link the shape_predictor_68_face_landmarks file and a pre-recorded video.
+We have a main Python code blink_morse1.py and two sub-codes constants.py and morse_code.py which are linked to the main code. We also have to link the `shape_predictor_68_face_landmarks` file and a pre-recorded video.
 
 Terminal command: ```python blink_morse1.py -p shape_predictor_68_face_landmarks.dat -v face_gautam5_morse.mp4```
 
