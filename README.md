@@ -25,17 +25,17 @@ Our project utilizes blink detection for Morse code translation, object detectio
 Programming Language: Python
 
 Libraries used:
-1. Morse Code: scipy, imutils, numpy, argparse, dlib, OpenCV (cv2), pynput (keyboard), shape_predictor_68_face_landmarks.dat
-2. Object Detection: yaml, argparse, csv, os, platform, sys, pathlib, torch, math, random, subprocess, datetime
-3. Finger Tracker: mediapipe, OpenCV (cv2), numpy, pyautogui
-4. Audio To Text/NLP: speech_recgonition, re, dateutil, yake
-5. Terrorist Shooting Simulation Webpage: HTML, CSS, JavaScript
-6. Face Detection: sklearn (scikit learn), imutils, numpy, argparse, pickle, OpenCV (cv2), sys, dlib, time, face_recognition, mmod_human_face_detector.dat
+1. Morse Code: `scipy`, `imutils`, `numpy`, `argparse`, `dlib`, `OpenCV (cv2)`, `pynput (keyboard)`, `shape_predictor_68_face_landmarks.dat`
+2. Object Detection: `yaml`, `argparse`, `csv`, `os`, `platform`, `sys`, `pathlib`, `torch`, `math`, `random`, `subprocess`, `datetime`
+3. Finger Tracker: `mediapipe`, `OpenCV (cv2)`, `numpy`, `pyautogui`
+4. Audio To Text/NLP: `speech_recgonition`, `re`, `dateutil`, `yake`
+5. Terrorist Shooting Simulation Webpage: `HTML`, `CSS`, `JavaScript`
+6. Face Detection: `sklearn (scikit learn)`, `imutils`, `numpy`, `argparse`, `pickle`, `OpenCV (cv2)`, `sys`, `dlib`, `time`, `face_recognition`, `mmod_human_face_detector.dat`
 
 ## How To Run
 1. Morse Code:
 
-We have a main Python code blink_morse1.py and two sub-codes constants.py and morse_code.py which are linked to the main code. We also have to link the `shape_predictor_68_face_landmarks` file and a pre-recorded video.
+We have a main Python code blink_morse1.py and two sub-codes `constants.py` and `morse_code.py` which are linked to the main code. We also have to link the `shape_predictor_68_face_landmarks` file and a pre-recorded video.
 
 Terminal command: 
 ```
@@ -44,7 +44,7 @@ python blink_morse1.py -p shape_predictor_68_face_landmarks.dat -v face_gautam5_
 
 2. Building Detection:
 
-We have two main codes. The first code - train.py is used for training our machine with the dataset and the main code - detect.py is used to test the training on a new image/video. We also have a sub-code - datayaml.py to make the yaml file which contains the classes.
+We have two main codes. The first code - `train.py` is used for training our machine with the dataset and the main code - `detect.py` is used to test the training on a new image/video. We also have a sub-code - `datayaml.py` to make the `yaml file` which contains the classes.
 
 Terminal commands are as follows:
 
@@ -60,7 +60,7 @@ python detect.py --weights /home/arismita/ML/yolov5_training/yolov5/buildingTrai
 
 3. Finger Tracker:
 
-We have made a webpage to display the simulation of the drone firing on the soldiers. Keep the file - soldiers.html open in the background and then run the handTracker code to control the mouse pointer using your finger.
+We have made a webpage to display the simulation of the drone firing on the soldiers. Keep the file - `soldiers.html` open in the background and then run the handTracker code to control the mouse pointer using your finger.
 
 Terminal command: 
 ```
@@ -69,7 +69,7 @@ python handTracker.py
 
 4. Audio-To-Text/ NLP:
 
-We will have to run the Python code likithacanyoupleaseshutup.py and give the audio file from which we want to do keyword extraction as input. The audio file should be in .wav format.
+We will have to run the Python code `likithacanyoupleaseshutup.py` and give the audio file from which we want to do keyword extraction as input. The audio file should be in `.wav` format.
 
 Terminal command:
 ```
@@ -78,7 +78,7 @@ python likithacanyoupleaseshutup.py
 
 5. Face Detection:
 
-We have 3 main codes under this section. The cnn_face_encoder.py file is used to detect faces in each frame of the video and make a pickle file out of it. The clusterFaces.py file is used to group similar faces into classes and make another pickle file of clustered faces. The comperator_actual.py file is used to compare the faces in the new video with the faces our machine was trained with (detection). We also have to link the pickle files and mmod_human_face_detector.dat at the necessary places.
+We have 3 main codes under this section. The `cnn_face_encoder.py` file is used to detect faces in each frame of the video and make a pickle file out of it. The `clusterFaces.py` file is used to group similar faces into classes and make another pickle file of clustered faces. The `comperator_actual.py` file is used to compare the faces in the new video with the faces our machine was trained with (detection). We also have to link the pickle files and `mmod_human_face_detector.dat` at the necessary places.
 
 Terminal commands are as follows:
 
