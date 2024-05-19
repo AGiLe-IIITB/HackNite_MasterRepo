@@ -31,7 +31,7 @@ Our project utilizes blink detection for Morse code translation, object detectio
 2. **Object Detection:** `yaml`, `argparse`, `csv`, `os`, `platform`, `sys`, `pathlib`, `torch`, `math`, `random`, `subprocess`, `datetime`
 3. **Finger Tracker:** `mediapipe`, `OpenCV (cv2)`, `numpy`, `pyautogui`
 4. **Audio To Text/NLP:** `speech_recgonition`, `re`, `dateutil`, `yake`
-5. **Terrorist Shooting** Simulation Webpage: `HTML`, `CSS`, `JavaScript`
+5. **Terrorist Shooting Simulation Webpage:** `HTML`, `CSS`, `JavaScript`
 6. **Face Detection:** `sklearn (scikit learn)`, `imutils`, `numpy`, `argparse`, `pickle`, `OpenCV (cv2)`, `sys`, `dlib`, `time`, `face_recognition`, `mmod_human_face_detector.dat`
 
 ## How To Run
