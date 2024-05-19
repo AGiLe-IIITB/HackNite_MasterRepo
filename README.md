@@ -10,8 +10,18 @@ Tackling terrorist activities with minimal human intervention using machine lear
 ## Goal
 To simulate a real-life scenario where we eliminate terrorist threats and free our captive soldiers using machine learning technology.
 
+## Other repos under this project
+- [Morse Code Reader](https://github.com/AGiLe-IIITB/morse_code)
+- [Object Detection](https://github.com/AGiLe-IIITB/object_detection)
+- [Finger Tracker](https://github.com/AGiLe-IIITB/finger_tracker)
+- [Soldier Image Website](https://github.com/AGiLe-IIITB/soldier_image_web)
+- [Audio to text](https://github.com/AGiLe-IIITB/audio_to_text)
+- [Face Detection](https://github.com/AGiLe-IIITB/face_detection)
+
 ## Features
+```
 Our project utilizes blink detection for Morse code translation, object detection to detect buildings in a landscape, finger tracking for a virtual gun, audio-to-text conversion, and NLP to translate speech and detect keywords and terrorist threats in speech and face detection to distinguish enemies and comrades.
+```
 
 ## Tech Stack
 Programming Language: Python
