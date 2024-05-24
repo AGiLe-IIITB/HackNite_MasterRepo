@@ -16,7 +16,7 @@ To simulate a real-life scenario where we eliminate terrorist threats and free o
 - [Morse Code Reader (Blink Detection)](https://github.com/AGiLe-IIITB/morse_code)
 - [Object Detection](https://github.com/AGiLe-IIITB/object_detection)
 - [Finger Tracker](https://github.com/AGiLe-IIITB/finger_tracker)
-- [Soldier Image Website (for finger tracker)](https://github.com/AGiLe-IIITB/soldier_image_web)
+- [Soldier Image Website (for finger tracking)](https://github.com/AGiLe-IIITB/soldier_image_web)
 - [Audio to text (NLP)](https://github.com/AGiLe-IIITB/audio_to_text)
 - [Face Detection](https://github.com/AGiLe-IIITB/face_detection)
 
