@@ -71,11 +71,11 @@ python handTracker.py
 
 4. **Audio-To-Text/ NLP:**
 
-We will have to run the Python code `likithacanyoupleaseshutup.py` and give the audio file from which we want to do keyword extraction as input. The audio file should be in `.wav` format.
+We will have to run the Python code `audio_text_analysis.py` and give the audio file from which we want to do keyword extraction as input. The audio file should be in `.wav` format.
 
 Terminal command:
 ```
-python likithacanyoupleaseshutup.py
+python audio_text_analysis.py
 ```
 
 5. **Face Detection:**
